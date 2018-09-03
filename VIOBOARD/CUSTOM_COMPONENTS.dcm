@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DSPIC30F4011
+D Microcontroller, dsPIC30
+$ENDCMP
+#
+$CMP Fuse
+D Fuse, generic
+K Fuse
+$ENDCMP
+#
+$CMP Fuse_C
+D Fuse, generic
+K Fuse
+$ENDCMP
+#
+$CMP MAX233
+D Transceiver, RS232
+$ENDCMP
+#
+$CMP MCP6004_C
+D Opamp, quad
+$ENDCMP
+#
+$CMP MIC5013
+D Driver, hi/low side, with overcurrent monitoring 
+$ENDCMP
+#
+$CMP PIC24FVXXKA302
+D Microcontroller, PIC24FV
+$ENDCMP
+#
+$CMP PTN78000WAH
+D Voltage regulator, switching
+$ENDCMP
+#
+$CMP QUAD_CAP_CMD
+D Capacitor array, isolated
+$ENDCMP
+#
+$CMP REF02CSZ
+D Voltage reference, 5V
+$ENDCMP
+#
+$CMP R_C
+D Resistor
+$ENDCMP
+#
+$CMP TL431
+D Voltage reference, shunt, adjustable
+$ENDCMP
+#
+$CMP TLP222A-2-C
+D Relay, optical, dual
+$ENDCMP
+#
+$CMP dsPIC30F4013
+D Microcontroller, dsPIC30, SMT
+$ENDCMP
+#
+#End Doc Library

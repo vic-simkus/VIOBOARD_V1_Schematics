@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CUSTOM_FOOTPRINTS)(type KiCad)(uri /home/vic/svn_root/BBB_HVAC/SCHEMATICS/LIBRARIES/FOOTPRINT/CUSTOM_FOOTPRINTS.pretty)(options "")(descr ""))
+)

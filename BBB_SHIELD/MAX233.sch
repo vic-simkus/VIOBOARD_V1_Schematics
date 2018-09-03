@@ -1,0 +1,171 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CUSTOM_COMPONENTS
+LIBS:BBB_SHIELD-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C_Small C1
+U 1 1 59165DCB
+P 3700 5100
+AR Path="/59378375/593ADF52/59165DCB" Ref="C1"  Part="1" 
+AR Path="/59378375/593AFBD2/59165DCB" Ref="C2"  Part="1" 
+F 0 "C1" H 3725 5200 39  0000 L CNN
+F 1 ".1uF" H 3725 5000 39  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3700 5100 50  0001 C CNN
+F 3 "" H 3700 5100 50  0001 C CNN
+F 4 "490-11166-1-ND" H 3700 5100 60  0001 C CNN "DKPN"
+	1    3700 5100
+	-1   0    0    -1  
+$EndComp
+Text HLabel 2750 4900 0    60   Input ~ 0
+VDD_33_SW
+Connection ~ 3700 5250
+Text HLabel 4400 4400 0    60   Input ~ 0
+TTL1_IN
+Text HLabel 4400 4300 0    60   Input ~ 0
+TTL2_IN
+Text HLabel 4400 4700 0    60   Output ~ 0
+TTL1_OUT
+Text HLabel 7250 4200 2    60   Output ~ 0
+TTL2_OUT
+Text HLabel 4400 4800 0    60   Input ~ 0
+RS1_IN
+Text HLabel 7250 4100 2    60   Input ~ 0
+RS2_IN
+Text HLabel 4400 4600 0    60   Output ~ 0
+RS1_OUT
+Text HLabel 4400 4100 0    60   Output ~ 0
+RS2_OUT
+Wire Wire Line
+	3700 5200 3700 5700
+Wire Wire Line
+	2750 4900 5250 4900
+Wire Wire Line
+	3700 4200 3700 5000
+$Comp
+L GND #PWR05
+U 1 1 596B5136
+P 3700 5700
+AR Path="/59378375/593ADF52/596B5136" Ref="#PWR05"  Part="1" 
+AR Path="/59378375/593AFBD2/596B5136" Ref="#PWR07"  Part="1" 
+F 0 "#PWR05" H 3700 5450 50  0001 C CNN
+F 1 "GND" H 3700 5550 50  0000 C CNN
+F 2 "" H 3700 5700 50  0001 C CNN
+F 3 "" H 3700 5700 50  0001 C CNN
+	1    3700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX3233E MAX1
+U 1 1 596B51CE
+P 5250 5450
+AR Path="/59378375/593ADF52/596B51CE" Ref="MAX1"  Part="1" 
+AR Path="/59378375/593AFBD2/596B51CE" Ref="MAX2"  Part="1" 
+F 0 "MAX1" H 5800 6940 60  0000 C CNN
+F 1 "MAX3233E" H 5790 5740 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm" H 5200 4750 60  0001 C CNN
+F 3 "" H 5200 4750 60  0001 C CNN
+F 4 "MAX3233ECWP+G36-ND" H 5250 5450 60  0001 C CNN "DKPN"
+	1    5250 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 4900
+Wire Wire Line
+	6350 4300 6550 4300
+Wire Wire Line
+	6550 4300 6550 4600
+$Comp
+L GND #PWR06
+U 1 1 596B5514
+P 6550 4600
+AR Path="/59378375/593ADF52/596B5514" Ref="#PWR06"  Part="1" 
+AR Path="/59378375/593AFBD2/596B5514" Ref="#PWR08"  Part="1" 
+F 0 "#PWR06" H 6550 4350 50  0001 C CNN
+F 1 "GND" H 6550 4450 50  0000 C CNN
+F 2 "" H 6550 4600 50  0001 C CNN
+F 3 "" H 6550 4600 50  0001 C CNN
+	1    6550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4100 7250 4100
+Wire Wire Line
+	7250 4200 6350 4200
+Wire Wire Line
+	5250 4100 4400 4100
+Wire Wire Line
+	5250 4300 4400 4300
+Wire Wire Line
+	5250 4400 4400 4400
+Wire Wire Line
+	5250 4600 4400 4600
+Wire Wire Line
+	5250 4700 4400 4700
+Wire Wire Line
+	5250 4800 4400 4800
+Wire Wire Line
+	5250 4500 3700 4500
+Wire Wire Line
+	3700 5000 5250 5000
+Connection ~ 3700 5000
+Wire Wire Line
+	5250 4200 3950 4200
+$Comp
+L R_Small R1
+U 1 1 596B5774
+P 3850 4200
+AR Path="/59378375/593ADF52/596B5774" Ref="R1"  Part="1" 
+AR Path="/59378375/593AFBD2/596B5774" Ref="R2"  Part="1" 
+F 0 "R1" H 3880 4220 50  0000 L CNN
+F 1 "10K" V 3850 4150 39  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 3850 4200 50  0001 C CNN
+F 3 "" H 3850 4200 50  0001 C CNN
+F 4 "YAG3805CT-ND" H 3850 4200 60  0001 C CNN "DKPN"
+	1    3850 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 4200 3700 4200
+Connection ~ 3700 4500
+$EndSCHEMATC

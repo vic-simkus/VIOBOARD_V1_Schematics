@@ -1,0 +1,168 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CUSTOM_COMPONENTS
+LIBS:VIOBOARD-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 18
+Title ""
+Date ""
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED_ALT D6
+U 1 1 5911344C
+P 5300 3200
+F 0 "D6" H 5300 3300 50  0000 C CNN
+F 1 "HTBT" H 5300 3050 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5300 3200 50  0001 C CNN
+F 3 "" H 5300 3200 50  0001 C CNN
+	1    5300 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R14
+U 1 1 59113453
+P 5650 3200
+F 0 "R14" V 5550 3200 50  0000 C CNN
+F 1 "470" V 5750 3200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 5580 3200 50  0001 C CNN
+F 3 "" H 5650 3200 50  0001 C CNN
+	1    5650 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED_ALT D7
+U 1 1 5911345A
+P 5300 3500
+F 0 "D7" H 5300 3600 50  0000 C CNN
+F 1 "COMM Rx" H 5300 3400 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5300 3500 50  0001 C CNN
+F 3 "" H 5300 3500 50  0001 C CNN
+	1    5300 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_ALT D8
+U 1 1 59113461
+P 5300 3900
+F 0 "D8" H 5300 4000 50  0000 C CNN
+F 1 "COMM Tx" H 5300 3800 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5300 3900 50  0001 C CNN
+F 3 "" H 5300 3900 50  0001 C CNN
+	1    5300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_ALT D9
+U 1 1 59113468
+P 5300 4250
+F 0 "D9" H 5300 4350 50  0000 C CNN
+F 1 "AUX" H 5300 4150 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5300 4250 50  0001 C CNN
+F 3 "" H 5300 4250 50  0001 C CNN
+	1    5300 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R15
+U 1 1 5911346F
+P 5650 3500
+F 0 "R15" V 5730 3500 50  0000 C CNN
+F 1 "470" V 5550 3500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 5580 3500 50  0001 C CNN
+F 3 "" H 5650 3500 50  0001 C CNN
+	1    5650 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R16
+U 1 1 59113476
+P 5650 3900
+F 0 "R16" V 5730 3900 50  0000 C CNN
+F 1 "470" V 5550 3900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 5580 3900 50  0001 C CNN
+F 3 "" H 5650 3900 50  0001 C CNN
+	1    5650 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R17
+U 1 1 5911347D
+P 5650 4250
+F 0 "R17" V 5730 4250 50  0000 C CNN
+F 1 "470" V 5550 4250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 5580 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3200 5500 3200
+Wire Wire Line
+	5450 4250 5500 4250
+Wire Wire Line
+	5450 3900 5500 3900
+Wire Wire Line
+	5450 3500 5500 3500
+Wire Wire Line
+	5800 3200 5950 3200
+Wire Wire Line
+	5950 3200 5950 4250
+Wire Wire Line
+	5950 3900 5800 3900
+Wire Wire Line
+	5800 3500 5950 3500
+Connection ~ 5950 3500
+Wire Wire Line
+	5950 4250 5800 4250
+Connection ~ 5950 3900
+Wire Wire Line
+	5950 3700 6800 3700
+Connection ~ 5950 3700
+Text HLabel 5150 3200 0    60   Input ~ 0
+HTBT
+Text HLabel 5150 3500 0    60   Input ~ 0
+COMMRX
+Text HLabel 5150 3900 0    60   Input ~ 0
+COMMTX
+Text HLabel 5150 4250 0    60   Input ~ 0
+AUX
+Text HLabel 6800 3700 2    60   UnSpc ~ 0
+5V_VDD
+$EndSCHEMATC
