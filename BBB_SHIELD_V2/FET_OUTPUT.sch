@@ -1,0 +1,162 @@
+EESchema Schematic File Version 4
+LIBS:BBB_SHIELD_V2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CUSTOM_COMPONENTS:TC4432 U2
+U 1 1 5B9E7A80
+P 5850 3200
+F 0 "U2" H 5850 2900 50  0000 C CNN
+F 1 "TC4432" H 5850 3524 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 3300 50  0001 C CNN
+F 3 "" H 5450 3300 50  0001 C CNN
+	1    5850 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 3050 0    50   Input ~ 0
+_VDD_24V_PROT
+Text GLabel 7100 3050 2    50   Input ~ 0
+_VDD_24V_PROT
+Wire Wire Line
+	7100 3050 6450 3050
+Wire Wire Line
+	5350 3050 5250 3050
+Wire Wire Line
+	5250 3050 5250 2350
+Connection ~ 5250 3050
+Wire Wire Line
+	5250 3050 4800 3050
+Wire Wire Line
+	6450 3050 6450 2350
+Wire Wire Line
+	6450 2350 6650 2350
+Connection ~ 6450 3050
+Wire Wire Line
+	6450 3050 6350 3050
+$Comp
+L Device:C_Small C10
+U 1 1 5B9E8A85
+P 4900 2550
+F 0 "C10" H 4992 2596 50  0000 L CNN
+F 1 "10uF" H 4992 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4900 2550 50  0001 C CNN
+F 3 "~" H 4900 2550 50  0001 C CNN
+	1    4900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5B9E8B0B
+P 6650 2550
+F 0 "C11" H 6558 2596 50  0000 R CNN
+F 1 "10uF" H 6558 2505 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6650 2550 50  0001 C CNN
+F 3 "~" H 6650 2550 50  0001 C CNN
+	1    6650 2550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2450 4900 2350
+Wire Wire Line
+	4900 2350 5250 2350
+Wire Wire Line
+	6650 2450 6650 2350
+$Comp
+L power:GND #PWR011
+U 1 1 5B9E902F
+P 6650 2650
+F 0 "#PWR011" H 6650 2400 50  0001 C CNN
+F 1 "GND" H 6655 2477 50  0000 C CNN
+F 2 "" H 6650 2650 50  0001 C CNN
+F 3 "" H 6650 2650 50  0001 C CNN
+	1    6650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5B9E9060
+P 4900 2650
+F 0 "#PWR08" H 4900 2400 50  0001 C CNN
+F 1 "GND" H 4905 2477 50  0000 C CNN
+F 2 "" H 4900 2650 50  0001 C CNN
+F 3 "" H 4900 2650 50  0001 C CNN
+	1    4900 2650
+	1    0    0    -1  
+$EndComp
+Text HLabel 4050 3150 0    50   Input ~ 0
+PWM_IN
+Wire Wire Line
+	4050 3150 4250 3150
+NoConn ~ 5350 3250
+Wire Wire Line
+	6350 3350 6350 3850
+Wire Wire Line
+	5350 3350 5350 3850
+$Comp
+L power:GND #PWR010
+U 1 1 5B9E9DF1
+P 6350 3850
+F 0 "#PWR010" H 6350 3600 50  0001 C CNN
+F 1 "GND" H 6355 3677 50  0000 C CNN
+F 2 "" H 6350 3850 50  0001 C CNN
+F 3 "" H 6350 3850 50  0001 C CNN
+	1    6350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5B9E9E22
+P 5350 3850
+F 0 "#PWR09" H 5350 3600 50  0001 C CNN
+F 1 "GND" H 5355 3677 50  0000 C CNN
+F 2 "" H 5350 3850 50  0001 C CNN
+F 3 "" H 5350 3850 50  0001 C CNN
+	1    5350 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 7950 3150 2    50   Output ~ 0
+FET_DRV_PU
+Text HLabel 7950 3250 2    50   Output ~ 0
+FET_DRV_PD
+Wire Wire Line
+	7950 3150 6350 3150
+Wire Wire Line
+	7950 3250 6350 3250
+$Comp
+L Connector:TestPoint_2Pole TP4
+U 1 1 5BD67BDA
+P 4250 3350
+F 0 "TP4" V 4296 3262 50  0000 R CNN
+F 1 "TestPoint_2Pole" V 4205 3262 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 4250 3350 50  0001 C CNN
+F 3 "~" H 4250 3350 50  0001 C CNN
+	1    4250 3350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4250 3150
+Wire Wire Line
+	4250 3150 5350 3150
+$Comp
+L power:GND #PWR07
+U 1 1 5BD67C73
+P 4250 3550
+F 0 "#PWR07" H 4250 3300 50  0001 C CNN
+F 1 "GND" H 4255 3377 50  0000 C CNN
+F 2 "" H 4250 3550 50  0001 C CNN
+F 3 "" H 4250 3550 50  0001 C CNN
+	1    4250 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
