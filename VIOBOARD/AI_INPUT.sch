@@ -327,7 +327,7 @@ F 3 "" H 8000 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C22
+L VIOBOARD-rescue:C_Small-device C22
 U 1 1 5961A41D
 P 6100 5900
 F 0 "C22" V 6200 5850 50  0000 L CNN
@@ -340,7 +340,7 @@ F 5 "CL21B104KBCNNNC" V 6100 5900 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C23
+L VIOBOARD-rescue:C_Small-device C23
 U 1 1 5961A498
 P 6600 6100
 F 0 "C23" V 6700 6050 50  0000 L CNN
@@ -353,7 +353,7 @@ F 5 "CL21B105KBFNNNF" V 6600 6100 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C24
+L VIOBOARD-rescue:C_Small-device C24
 U 1 1 5961A67E
 P 7000 6350
 F 0 "C24" V 7100 6300 50  0000 L CNN
@@ -376,7 +376,7 @@ F 3 "" H 5150 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C21
+L VIOBOARD-rescue:C_Small-device C21
 U 1 1 59659490
 P 6450 5700
 F 0 "C21" V 6350 5650 50  0000 L CNN
@@ -411,7 +411,7 @@ F 3 "" H 2750 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C56
+L VIOBOARD-rescue:C_Small-device C56
 U 1 1 5A42EDCC
 P 2250 1400
 F 0 "C56" H 2260 1470 50  0000 L CNN
@@ -424,7 +424,7 @@ F 5 "1276-6470-1-ND" H 2250 1400 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C54
+L VIOBOARD-rescue:C_Small-device C54
 U 1 1 5A42EF31
 P 2150 1200
 F 0 "C54" H 2160 1270 50  0000 L CNN
@@ -437,7 +437,7 @@ F 5 "1276-6470-1-ND" H 2150 1200 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C52
+L VIOBOARD-rescue:C_Small-device C52
 U 1 1 5A42EF9B
 P 2050 1000
 F 0 "C52" H 2060 1070 50  0000 L CNN
@@ -450,7 +450,7 @@ F 5 "1276-6470-1-ND" H 2050 1000 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C58
+L VIOBOARD-rescue:C_Small-device C58
 U 1 1 5A42F0E8
 P 2350 1600
 F 0 "C58" H 2360 1670 50  0000 L CNN
@@ -463,7 +463,7 @@ F 5 "1276-6470-1-ND" H 2350 1600 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C53
+L VIOBOARD-rescue:C_Small-device C53
 U 1 1 5A4302AC
 P 1700 3700
 F 0 "C53" H 1710 3770 50  0000 L CNN
@@ -476,7 +476,7 @@ F 5 "1276-6470-1-ND" H 1700 3700 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C55
+L VIOBOARD-rescue:C_Small-device C55
 U 1 1 5A430379
 P 1800 3900
 F 0 "C55" H 1810 3970 50  0000 L CNN
@@ -489,7 +489,7 @@ F 5 "1276-6470-1-ND" H 1800 3900 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C57
+L VIOBOARD-rescue:C_Small-device C57
 U 1 1 5A4303E3
 P 1900 4100
 F 0 "C57" H 1910 4170 50  0000 L CNN
@@ -502,7 +502,7 @@ F 5 "1276-6470-1-ND" H 1900 4100 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C59
+L VIOBOARD-rescue:C_Small-device C59
 U 1 1 5A430450
 P 2000 4300
 F 0 "C59" H 2010 4370 50  0000 L CNN
@@ -515,7 +515,7 @@ F 5 "1276-6470-1-ND" H 2000 4300 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R80
+L VIOBOARD-rescue:R_Small-device R80
 U 1 1 5A4441CC
 P 2600 2100
 F 0 "R80" V 2600 2050 39  0000 L CNN
@@ -528,7 +528,7 @@ F 5 "541-1.00KCCT-ND" V 2600 2100 60  0001 C CNN "DKPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R82
+L VIOBOARD-rescue:R_Small-device R82
 U 1 1 5A4446E8
 P 2800 2250
 F 0 "R82" V 2800 2200 39  0000 L CNN
@@ -541,7 +541,7 @@ F 5 "541-1.00KCCT-ND" V 2800 2250 60  0001 C CNN "DKPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R78
+L VIOBOARD-rescue:R_Small-device R78
 U 1 1 5A444761
 P 2250 3500
 F 0 "R78" V 2250 3450 39  0000 L CNN
@@ -554,7 +554,7 @@ F 5 "541-1.00KCCT-ND" V 2250 3500 60  0001 C CNN "DKPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R79
+L VIOBOARD-rescue:R_Small-device R79
 U 1 1 5A44574A
 P 2450 3350
 F 0 "R79" V 2450 3300 39  0000 L CNN
@@ -567,7 +567,7 @@ F 5 "541-1.00KCCT-ND" V 2450 3350 60  0001 C CNN "DKPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R81
+L VIOBOARD-rescue:R_Small-device R81
 U 1 1 5A44607D
 P 2650 3200
 F 0 "R81" V 2650 3150 39  0000 L CNN
@@ -580,7 +580,7 @@ F 5 "541-1.00KCCT-ND" V 2650 3200 60  0001 C CNN "DKPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R83
+L VIOBOARD-rescue:R_Small-device R83
 U 1 1 5A4465C4
 P 2850 3050
 F 0 "R83" V 2850 3000 39  0000 L CNN
@@ -842,7 +842,7 @@ Wire Wire Line
 	2000 4200 2000 3050
 Connection ~ 2000 3050
 $Comp
-L device:R_Small R84
+L VIOBOARD-rescue:R_Small-device R84
 U 1 1 5A44A740
 P 3000 2400
 F 0 "R84" V 3000 2350 39  0000 L CNN
@@ -855,7 +855,7 @@ F 5 "541-1.00KCCT-ND" V 3000 2400 60  0001 C CNN "DKPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R85
+L VIOBOARD-rescue:R_Small-device R85
 U 1 1 5A44A7CE
 P 3200 2550
 F 0 "R85" V 3200 2500 39  0000 L CNN

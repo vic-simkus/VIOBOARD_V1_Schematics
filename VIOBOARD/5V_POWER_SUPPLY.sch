@@ -36,7 +36,7 @@ VDD_24V_PROT
 Wire Wire Line
 	5950 3550 5800 3550
 $Comp
-L device:CP1_Small C47
+L VIOBOARD-rescue:CP1_Small-device C47
 U 1 1 59600D6D
 P 5350 4300
 F 0 "C47" H 5350 4500 50  0000 L CNN
@@ -50,7 +50,7 @@ F 6 "EEU-FC1H181L" H 5350 4300 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP1_Small C49
+L VIOBOARD-rescue:CP1_Small-device C49
 U 1 1 59600DB8
 P 8450 3650
 F 0 "C49" H 8450 3850 50  0000 L CNN
@@ -64,7 +64,7 @@ F 6 "EEU-FC1H181L" H 8450 3650 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C46
+L VIOBOARD-rescue:C_Small-device C46
 U 1 1 5960118D
 P 5000 4300
 F 0 "C46" H 5000 4500 50  0000 L CNN
@@ -77,7 +77,7 @@ F 5 "CL31B106KBHNNNE" H 5000 4300 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C48
+L VIOBOARD-rescue:C_Small-device C48
 U 1 1 596013BE
 P 8100 3650
 F 0 "C48" H 8100 3850 50  0000 L CNN
@@ -90,7 +90,7 @@ F 5 "CL31B106KBHNNNE" H 8100 3650 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C45
+L VIOBOARD-rescue:C_Small-device C45
 U 1 1 596018F1
 P 4650 4300
 F 0 "C45" H 4650 4500 50  0000 L CNN
@@ -103,7 +103,7 @@ F 5 "GRM31CR71H105KA61L" H 4650 4300 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C50
+L VIOBOARD-rescue:C_Small-device C50
 U 1 1 5960193C
 P 7350 3650
 F 0 "C50" H 7350 3850 50  0000 L CNN
@@ -168,7 +168,7 @@ Connection ~ 7350 3550
 Connection ~ 7700 3550
 Connection ~ 8100 3550
 $Comp
-L device:C_Small C44
+L VIOBOARD-rescue:C_Small-device C44
 U 1 1 5966B067
 P 4250 4300
 F 0 "C44" H 4250 4500 50  0000 L CNN
@@ -181,7 +181,7 @@ F 5 "GCM31CR71H225KA55L" H 4250 4300 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C51
+L VIOBOARD-rescue:C_Small-device C51
 U 1 1 5966B0FE
 P 7700 3650
 F 0 "C51" H 7700 3850 50  0000 L CNN
@@ -201,7 +201,7 @@ Text GLabel 9150 3550 2    30   Output ~ 0
 VDD_5V_PROT
 Connection ~ 8900 3550
 $Comp
-L conn:TEST_1P J11
+L VIOBOARD-rescue:TEST_1P-conn J11
 U 1 1 596A4484
 P 8900 3550
 F 0 "J11" H 8900 3820 50  0000 C CNN
@@ -214,7 +214,7 @@ $EndComp
 Wire Wire Line
 	5000 4400 5000 4500
 $Comp
-L device:R R66
+L VIOBOARD-rescue:R-device R66
 U 1 1 5A41F8D0
 P 4250 3850
 F 0 "R66" V 4250 3850 50  0000 C CNN
@@ -227,7 +227,7 @@ F 5 "CRCW08050000Z0EBC" V 4250 3850 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R67
+L VIOBOARD-rescue:R-device R67
 U 1 1 5A41F95A
 P 4650 3850
 F 0 "R67" V 4650 3850 50  0000 C CNN
@@ -240,7 +240,7 @@ F 5 "CRCW08050000Z0EBC" V 4650 3850 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R68
+L VIOBOARD-rescue:R-device R68
 U 1 1 5A41F9B4
 P 5000 3850
 F 0 "R68" V 5000 3850 50  0000 C CNN
@@ -253,7 +253,7 @@ F 5 "CRCW08050000Z0EBC" V 5000 3850 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R69
+L VIOBOARD-rescue:R-device R69
 U 1 1 5A41FA09
 P 5350 3850
 F 0 "R69" V 5350 3850 50  0000 C CNN

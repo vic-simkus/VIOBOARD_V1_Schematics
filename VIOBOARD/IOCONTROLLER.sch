@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:C_Small C18
+L VIOBOARD-rescue:C_Small-device C18
 U 1 1 59155B56
 P 6700 3300
 F 0 "C18" V 6800 3250 39  0000 L CNN
@@ -28,7 +28,7 @@ F 5 "C0805C200K5GACTU" V 6700 3300 60  0001 C CNN "MFGPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C19
+L VIOBOARD-rescue:C_Small-device C19
 U 1 1 59155B5D
 P 6700 3600
 F 0 "C19" V 6600 3550 39  0000 L CNN
@@ -41,7 +41,7 @@ F 5 "CL21C180JBANNNC" V 6700 3600 60  0001 C CNN "MFGPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Crystal Y2
+L VIOBOARD-rescue:Crystal-device Y2
 U 1 1 59155B64
 P 6400 3450
 F 0 "Y2" H 6400 3600 50  0000 C CNN

@@ -28,7 +28,7 @@ F 5 "PIC24FV32KA302-I/SO" H 5150 4650 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT LED14
+L VIOBOARD-rescue:LED_ALT-device LED14
 U 1 1 5915ADE3
 P 8700 2800
 F 0 "LED14" H 8700 2900 50  0000 C CNN
@@ -41,7 +41,7 @@ F 5 "LY R976-PS-36" H 8700 2800 60  0001 C CNN "MFGPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Crystal Y1
+L VIOBOARD-rescue:Crystal-device Y1
 U 1 1 5915ADFF
 P 4300 3450
 F 0 "Y1" H 4300 3600 50  0000 C CNN
@@ -65,7 +65,7 @@ NoConn ~ 6650 3000
 NoConn ~ 6650 2900
 NoConn ~ 6650 2700
 $Comp
-L device:C_Small C6
+L VIOBOARD-rescue:C_Small-device C6
 U 1 1 5915AE2B
 P 3250 3300
 F 0 "C6" H 3260 3370 50  0000 L CNN
@@ -78,7 +78,7 @@ F 5 "CL21C180JBANNNC" H 3250 3300 60  0001 C CNN "MFGPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C7
+L VIOBOARD-rescue:C_Small-device C7
 U 1 1 5915AE32
 P 3250 3700
 F 0 "C7" H 3260 3770 50  0000 L CNN
@@ -220,9 +220,8 @@ Wire Wire Line
 Wire Wire Line
 	4500 3700 4500 3400
 Wire Wire Line
-	3350 3300 5400 3300
+	3350 3300 4300 3300
 Connection ~ 4300 3300
-Connection ~ 4300 3600
 Wire Wire Line
 	5400 3000 4950 3000
 Wire Wire Line
@@ -254,28 +253,28 @@ Wire Wire Line
 Wire Wire Line
 	6650 4350 6650 3800
 Wire Wire Line
-	1600 1050 1600 4350
+	1600 1050 1600 1150
 Wire Wire Line
 	1600 4350 6650 4350
 Wire Wire Line
 	5250 4200 2000 4200
 Wire Wire Line
-	2000 4200 2000 1050
+	2000 4200 2000 1450
 Wire Wire Line
-	3350 3700 4500 3700
+	3350 3700 4300 3700
 Wire Wire Line
 	4300 3600 4300 3700
 Connection ~ 4300 3700
 Wire Wire Line
 	3150 3300 2900 3300
 Wire Wire Line
-	6600 5500 8350 5500
+	6600 5500 7050 5500
 Wire Wire Line
-	6600 5400 8350 5400
+	6600 5400 6700 5400
 Wire Wire Line
-	6600 5600 8350 5600
+	6600 5600 7750 5600
 Wire Wire Line
-	6600 5700 8350 5700
+	6600 5700 8150 5700
 Wire Wire Line
 	6650 3300 9400 3300
 Wire Wire Line
@@ -283,14 +282,14 @@ Wire Wire Line
 Wire Wire Line
 	4950 1900 4950 2900
 Wire Wire Line
-	5350 1500 5350 2500
+	5350 1500 5350 1900
 Wire Wire Line
-	5300 2500 5400 2500
+	5300 2500 5350 2500
 Connection ~ 5350 2500
 Wire Wire Line
 	4600 3700 5400 3700
 $Comp
-L device:C_Small C8
+L VIOBOARD-rescue:C_Small-device C8
 U 1 1 591D9DD5
 P 9400 3200
 F 0 "C8" H 9410 3270 50  0000 L CNN
@@ -302,7 +301,7 @@ F 4 "1276-6767-1-ND" H 9400 3200 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 2500 5000 2500
+	4150 2500 4650 2500
 Connection ~ 1600 1150
 Text Notes 6250 650  0    60   ~ 0
 BOM - 2017-06-09\n
@@ -358,7 +357,7 @@ F2 "VDD_5V_COMM" O R 4200 2800 35
 F3 "VSS_COMM" O R 4200 2700 35 
 $EndSheet
 Wire Wire Line
-	9150 2800 9900 2800
+	9150 2800 9400 2800
 Wire Wire Line
 	9400 2800 9400 3100
 Wire Wire Line
@@ -369,7 +368,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2500 6650 2500
 Wire Wire Line
-	2900 3300 2900 3850
+	2900 3300 2900 3700
 Wire Wire Line
 	5400 3200 4650 3200
 Wire Wire Line
@@ -381,7 +380,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 2800 4600 3700
 Wire Wire Line
-	1000 1450 1700 1450
+	1000 1450 1150 1450
 Wire Wire Line
 	1150 1150 1300 1150
 Connection ~ 1150 1450
@@ -409,9 +408,11 @@ Wire Wire Line
 	1150 1450 1150 1150
 Connection ~ 5350 1900
 $Comp
-L conn:TEST_1P J14
+L VIOBOARD-rescue:TEST_1P-conn J14
 U 1 1 596AAE0A
 P 6700 6100
+AR Path="/596AAE0A" Ref="J14"  Part="1" 
+AR Path="/5915A6A3/596AAE0A" Ref="J14"  Part="1" 
 F 0 "J14" H 6700 6370 50  0000 C CNN
 F 1 "TP_CTS" H 6700 6300 39  0000 C CNN
 F 2 "Measurement_Points:Test_Point_2Pads" H 6900 6100 50  0001 C CNN
@@ -420,9 +421,11 @@ F 3 "" H 6900 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:TEST_1P J15
+L VIOBOARD-rescue:TEST_1P-conn J15
 U 1 1 596AAEB3
 P 7050 6100
+AR Path="/596AAEB3" Ref="J15"  Part="1" 
+AR Path="/5915A6A3/596AAEB3" Ref="J15"  Part="1" 
 F 0 "J15" H 7050 6370 50  0000 C CNN
 F 1 "TP_TD" H 7050 6300 39  0000 C CNN
 F 2 "Measurement_Points:Test_Point_2Pads" H 7250 6100 50  0001 C CNN
@@ -431,9 +434,11 @@ F 3 "" H 7250 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:TEST_1P J16
+L VIOBOARD-rescue:TEST_1P-conn J16
 U 1 1 596AAF6A
 P 7750 4950
+AR Path="/596AAF6A" Ref="J16"  Part="1" 
+AR Path="/5915A6A3/596AAF6A" Ref="J16"  Part="1" 
 F 0 "J16" H 7750 5220 50  0000 C CNN
 F 1 "TP_RTS" H 7750 5150 39  0000 C CNN
 F 2 "Measurement_Points:Test_Point_2Pads" H 7950 4950 50  0001 C CNN
@@ -450,9 +455,11 @@ Wire Wire Line
 Wire Wire Line
 	8300 5100 8350 5100
 $Comp
-L conn:TEST_1P J17
+L VIOBOARD-rescue:TEST_1P-conn J17
 U 1 1 596ABE4D
 P 8150 4950
+AR Path="/596ABE4D" Ref="J17"  Part="1" 
+AR Path="/5915A6A3/596ABE4D" Ref="J17"  Part="1" 
 F 0 "J17" H 8150 5220 50  0000 C CNN
 F 1 "TP_RD" H 8150 5150 50  0000 C CNN
 F 2 "Measurement_Points:Test_Point_2Pads" H 8350 4950 50  0001 C CNN
@@ -473,9 +480,11 @@ Wire Wire Line
 	8150 4950 8150 5700
 Connection ~ 8150 5700
 $Comp
-L conn:TEST_1P J13
+L VIOBOARD-rescue:TEST_1P-conn J13
 U 1 1 596ACFC7
 P 2000 1450
+AR Path="/596ACFC7" Ref="J13"  Part="1" 
+AR Path="/5915A6A3/596ACFC7" Ref="J13"  Part="1" 
 F 0 "J13" H 2000 1720 50  0000 C CNN
 F 1 "TP SDA" H 2000 1650 39  0000 C CNN
 F 2 "Measurement_Points:Test_Point_2Pads" H 2200 1450 50  0001 C CNN
@@ -484,9 +493,11 @@ F 3 "" H 2200 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:TEST_1P J12
+L VIOBOARD-rescue:TEST_1P-conn J12
 U 1 1 596AD0C7
 P 1600 1150
+AR Path="/596AD0C7" Ref="J12"  Part="1" 
+AR Path="/5915A6A3/596AD0C7" Ref="J12"  Part="1" 
 F 0 "J12" H 1600 1420 50  0000 C CNN
 F 1 "TP SCL" H 1600 1350 39  0000 C CNN
 F 2 "Measurement_Points:Test_Point_2Pads" H 1800 1150 50  0001 C CNN
@@ -495,9 +506,11 @@ F 3 "" H 1800 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:TEST_1P J18
+L VIOBOARD-rescue:TEST_1P-conn J18
 U 1 1 596B0B98
 P 9050 4850
+AR Path="/596B0B98" Ref="J18"  Part="1" 
+AR Path="/5915A6A3/596B0B98" Ref="J18"  Part="1" 
 F 0 "J18" H 9050 5120 50  0000 C CNN
 F 1 "TP_GND" H 9050 5050 39  0000 C CNN
 F 2 "Measurement_Points:Test_Point_2Pads" H 9250 4850 50  0001 C CNN
@@ -553,4 +566,32 @@ Wire Wire Line
 	5550 1900 5350 1900
 Text HLabel 5550 1900 2    30   BiDi ~ 0
 COMM_RESET
+Wire Wire Line
+	4300 3300 5400 3300
+Wire Wire Line
+	4300 3700 4500 3700
+Wire Wire Line
+	5350 2500 5400 2500
+Wire Wire Line
+	1600 1150 1600 4350
+Wire Wire Line
+	9400 2800 9900 2800
+Wire Wire Line
+	1150 1450 1700 1450
+Wire Wire Line
+	2900 3700 2900 3850
+Wire Wire Line
+	4650 2500 5000 2500
+Wire Wire Line
+	2000 1450 2000 1050
+Wire Wire Line
+	5350 1900 5350 2500
+Wire Wire Line
+	6700 5400 8350 5400
+Wire Wire Line
+	7050 5500 8350 5500
+Wire Wire Line
+	7750 5600 8350 5600
+Wire Wire Line
+	8150 5700 8350 5700
 $EndSCHEMATC

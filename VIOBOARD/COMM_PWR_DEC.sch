@@ -36,7 +36,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 1500 4550 1550
 $Comp
-L device:C_Small C10
+L VIOBOARD-rescue:C_Small-device C10
 U 1 1 595E9A0A
 P 4850 1350
 AR Path="/5915A6A3/595E9993/595E9A0A" Ref="C10"  Part="1" 
@@ -51,7 +51,7 @@ F 5 "CL21B103KBANNNC" H 4850 1350 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C11
+L VIOBOARD-rescue:C_Small-device C11
 U 1 1 595E9A57
 P 5100 1350
 AR Path="/5915A6A3/595E9993/595E9A57" Ref="C11"  Part="1" 
@@ -66,7 +66,7 @@ F 5 "CL21B104KBCNNNC" H 5100 1350 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C12
+L VIOBOARD-rescue:C_Small-device C12
 U 1 1 595E9A72
 P 5350 1350
 AR Path="/5915A6A3/595E9993/595E9A72" Ref="C12"  Part="1" 
@@ -81,7 +81,7 @@ F 5 "CL21B105KBFNNNF" H 5350 1350 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C13
+L VIOBOARD-rescue:C_Small-device C13
 U 1 1 595E9A9B
 P 5600 1350
 AR Path="/5915A6A3/595E9993/595E9A9B" Ref="C13"  Part="1" 

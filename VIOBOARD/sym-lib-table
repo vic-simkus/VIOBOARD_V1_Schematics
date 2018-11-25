@@ -27,6 +27,5 @@
   (lib (name atmel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/atmel.lib)(options "")(descr ""))
   (lib (name contrib)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/contrib.lib)(options "")(descr ""))
   (lib (name valves)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/valves.lib)(options "")(descr ""))
-  (lib (name CUSTOM_COMPONENTS)(type Legacy)(uri ${KIPRJMOD}/CUSTOM_COMPONENTS.lib)(options "")(descr ""))
   (lib (name switches)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/switches.lib)(options "")(descr ""))
 )

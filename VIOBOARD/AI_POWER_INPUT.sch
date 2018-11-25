@@ -44,23 +44,23 @@ F 5 "OSTTA084163" H 10550 2250 60  0001 C CNN "MFGPN"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 1550 10350 1550
+	4800 1550 9450 1550
 Wire Wire Line
-	4800 2950 10350 2950
+	4800 2950 6300 2950
 Wire Wire Line
-	4800 2750 10350 2750
+	4800 2750 6750 2750
 Wire Wire Line
-	4800 2550 10350 2550
+	4800 2550 7200 2550
 Wire Wire Line
-	4800 2350 10350 2350
+	4800 2350 7650 2350
 Wire Wire Line
-	4800 2150 10350 2150
+	4800 2150 8100 2150
 Wire Wire Line
-	4800 1950 10350 1950
+	4800 1950 8550 1950
 Text Notes 7300 650  0    60   ~ 0
 BOM - 2017-06-09
 $Comp
-L device:D_Schottky_x2_Serial_AKC D4
+L VIOBOARD-rescue:D_Schottky_x2_Serial_AKC-device D4
 U 1 1 599A54A1
 P 6100 3800
 F 0 "D4" H 6150 3700 50  0000 C CNN
@@ -73,7 +73,7 @@ F 5 "BAS70-04-E3-08" H 6100 3800 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:D_Schottky_x2_Serial_AKC D13
+L VIOBOARD-rescue:D_Schottky_x2_Serial_AKC-device D13
 U 1 1 599A8435
 P 6550 3800
 F 0 "D13" H 6600 3700 50  0000 C CNN
@@ -86,7 +86,7 @@ F 5 "BAS70-04-E3-08" H 6550 3800 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:D_Schottky_x2_Serial_AKC D14
+L VIOBOARD-rescue:D_Schottky_x2_Serial_AKC-device D14
 U 1 1 599A8476
 P 7000 3800
 F 0 "D14" H 7050 3700 50  0000 C CNN
@@ -99,7 +99,7 @@ F 5 "BAS70-04-E3-08" H 7000 3800 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:D_Schottky_x2_Serial_AKC D15
+L VIOBOARD-rescue:D_Schottky_x2_Serial_AKC-device D15
 U 1 1 599A84BE
 P 7450 3800
 F 0 "D15" H 7500 3700 50  0000 C CNN
@@ -112,7 +112,7 @@ F 5 "BAS70-04-E3-08" H 7450 3800 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:D_Schottky_x2_Serial_AKC D16
+L VIOBOARD-rescue:D_Schottky_x2_Serial_AKC-device D16
 U 1 1 599A8509
 P 7900 3800
 F 0 "D16" H 7950 3700 50  0000 C CNN
@@ -125,7 +125,7 @@ F 5 "BAS70-04-E3-08" H 7900 3800 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:D_Schottky_x2_Serial_AKC D17
+L VIOBOARD-rescue:D_Schottky_x2_Serial_AKC-device D17
 U 1 1 599A8571
 P 8350 3800
 F 0 "D17" H 8400 3700 50  0000 C CNN
@@ -138,7 +138,7 @@ F 5 "BAS70-04-E3-08" H 8350 3800 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:D_Schottky_x2_Serial_AKC D18
+L VIOBOARD-rescue:D_Schottky_x2_Serial_AKC-device D18
 U 1 1 599A85C6
 P 8800 3800
 F 0 "D18" H 8850 3700 50  0000 C CNN
@@ -151,7 +151,7 @@ F 5 "BAS70-04-E3-08" H 8800 3800 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:D_Schottky_x2_Serial_AKC D19
+L VIOBOARD-rescue:D_Schottky_x2_Serial_AKC-device D19
 U 1 1 599A861A
 P 9250 3800
 F 0 "D19" H 9300 3700 50  0000 C CNN
@@ -164,7 +164,7 @@ F 5 "BAS70-04-E3-08" H 9250 3800 60  0001 C CNN "MFGPN"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5600 4100 9250 4100
+	5600 4100 6100 4100
 Connection ~ 8800 4100
 Connection ~ 8350 4100
 Connection ~ 7900 4100
@@ -186,7 +186,7 @@ F 3 "" H 5600 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 3500 9250 3500
+	4850 3500 6100 3500
 Connection ~ 8800 3500
 Connection ~ 8350 3500
 Connection ~ 7900 3500
@@ -204,10 +204,10 @@ Connection ~ 8100 2150
 Connection ~ 8550 1950
 Connection ~ 9450 1550
 Wire Wire Line
-	4800 1750 10350 1750
+	4800 1750 9000 1750
 Connection ~ 9000 1750
 $Comp
-L device:R R53
+L VIOBOARD-rescue:R-device R53
 U 1 1 5A414C98
 P 6300 3200
 F 0 "R53" V 6380 3200 50  0000 C CNN
@@ -220,7 +220,7 @@ F 5 "P16057CT-ND" V 6300 3200 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R54
+L VIOBOARD-rescue:R-device R54
 U 1 1 5A414CD7
 P 6750 3200
 F 0 "R54" V 6830 3200 50  0000 C CNN
@@ -233,7 +233,7 @@ F 5 "P16057CT-ND" V 6750 3200 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R55
+L VIOBOARD-rescue:R-device R55
 U 1 1 5A414D22
 P 7200 3200
 F 0 "R55" V 7280 3200 50  0000 C CNN
@@ -246,7 +246,7 @@ F 5 "P16057CT-ND" V 7200 3200 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R56
+L VIOBOARD-rescue:R-device R56
 U 1 1 5A414D6F
 P 7650 3200
 F 0 "R56" V 7730 3200 50  0000 C CNN
@@ -259,7 +259,7 @@ F 5 "P16057CT-ND" V 7650 3200 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R57
+L VIOBOARD-rescue:R-device R57
 U 1 1 5A414DB4
 P 8100 3200
 F 0 "R57" V 8180 3200 50  0000 C CNN
@@ -272,7 +272,7 @@ F 5 "P16057CT-ND" V 8100 3200 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R58
+L VIOBOARD-rescue:R-device R58
 U 1 1 5A414DF5
 P 8550 3200
 F 0 "R58" V 8630 3200 50  0000 C CNN
@@ -285,7 +285,7 @@ F 5 "P16057CT-ND" V 8550 3200 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R59
+L VIOBOARD-rescue:R-device R59
 U 1 1 5A414E50
 P 9000 3200
 F 0 "R59" V 9080 3200 50  0000 C CNN
@@ -298,7 +298,7 @@ F 5 "P16057CT-ND" V 9000 3200 60  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R60
+L VIOBOARD-rescue:R-device R60
 U 1 1 5A414EAD
 P 9450 3200
 F 0 "R60" V 9530 3200 50  0000 C CNN
@@ -342,4 +342,48 @@ Wire Wire Line
 	6750 3350 6750 3800
 Wire Wire Line
 	6300 3350 6300 3800
+Wire Wire Line
+	8800 4100 9250 4100
+Wire Wire Line
+	8350 4100 8800 4100
+Wire Wire Line
+	7900 4100 8350 4100
+Wire Wire Line
+	7450 4100 7900 4100
+Wire Wire Line
+	7000 4100 7450 4100
+Wire Wire Line
+	6550 4100 7000 4100
+Wire Wire Line
+	6100 4100 6550 4100
+Wire Wire Line
+	8800 3500 9250 3500
+Wire Wire Line
+	8350 3500 8800 3500
+Wire Wire Line
+	7900 3500 8350 3500
+Wire Wire Line
+	7450 3500 7900 3500
+Wire Wire Line
+	7000 3500 7450 3500
+Wire Wire Line
+	6550 3500 7000 3500
+Wire Wire Line
+	6100 3500 6550 3500
+Wire Wire Line
+	6300 2950 10350 2950
+Wire Wire Line
+	6750 2750 10350 2750
+Wire Wire Line
+	7200 2550 10350 2550
+Wire Wire Line
+	7650 2350 10350 2350
+Wire Wire Line
+	8100 2150 10350 2150
+Wire Wire Line
+	8550 1950 10350 1950
+Wire Wire Line
+	9450 1550 10350 1550
+Wire Wire Line
+	9000 1750 10350 1750
 $EndSCHEMATC

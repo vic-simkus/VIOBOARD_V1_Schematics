@@ -53,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 2800 6150 2800
 $Comp
-L device:C_Small C42
+L VIOBOARD-rescue:C_Small-device C42
 U 1 1 5968DF52
 P 3500 3000
 F 0 "C42" H 3510 3070 50  0000 L CNN
@@ -81,7 +81,7 @@ $EndComp
 Wire Wire Line
 	3500 3250 3500 3100
 $Comp
-L device:C_Small C43
+L VIOBOARD-rescue:C_Small-device C43
 U 1 1 5968E10A
 P 5700 3000
 F 0 "C43" H 5710 3070 50  0000 L CNN
@@ -110,7 +110,7 @@ $EndComp
 Wire Wire Line
 	5700 3250 5700 3100
 $Comp
-L conn:TEST_1P J10
+L VIOBOARD-rescue:TEST_1P-conn J10
 U 1 1 596A8A07
 P 5700 2800
 F 0 "J10" H 5700 3070 50  0000 C CNN

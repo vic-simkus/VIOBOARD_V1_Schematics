@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L interface:MAX232I U1
+L VIOBOARD-rescue:MAX232I-interface U1
 U 1 1 5A48FCB4
 P 5650 3700
 F 0 "U1" H 5550 4825 50  0000 R CNN
@@ -29,7 +29,7 @@ F 6 "TI" H 5650 3700 60  0001 C CNN "MFG"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C60
+L VIOBOARD-rescue:C_Small-device C60
 U 1 1 5A48FE6E
 P 4550 2950
 F 0 "C60" H 4560 3020 50  0000 L CNN
@@ -42,7 +42,7 @@ F 5 "CL21B105KBFNNNF" H 4550 2950 60  0001 C CNN "MFGPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C61
+L VIOBOARD-rescue:C_Small-device C61
 U 1 1 5A48FEAC
 P 6600 2950
 F 0 "C61" H 6610 3020 50  0000 L CNN
@@ -66,7 +66,7 @@ F 3 "" H 5650 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C62
+L VIOBOARD-rescue:C_Small-device C62
 U 1 1 5A490198
 P 6750 3300
 F 0 "C62" V 6800 3200 39  0000 L CNN
@@ -79,7 +79,7 @@ F 5 "1276-6470-1-ND" V 6750 3300 60  0001 C CNN "DKPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C63
+L VIOBOARD-rescue:C_Small-device C63
 U 1 1 5A4901D4
 P 6750 3600
 F 0 "C63" V 6800 3500 39  0000 L CNN
@@ -134,7 +134,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3100 4850 3100
 $Comp
-L device:C_Small C64
+L VIOBOARD-rescue:C_Small-device C64
 U 1 1 5A490CAE
 P 7500 2550
 F 0 "C64" H 7510 2620 50  0000 L CNN
