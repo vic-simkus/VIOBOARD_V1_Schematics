@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name BBB_SHIELD_V2-rescue)(type Legacy)(uri ${KIPRJMOD}/BBB_SHIELD_V2-rescue.lib)(options "")(descr ""))
 )
