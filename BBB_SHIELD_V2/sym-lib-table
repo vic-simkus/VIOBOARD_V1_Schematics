@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name BBB_SHIELD_V2-rescue)(type Legacy)(uri ${KIPRJMOD}/BBB_SHIELD_V2-rescue.lib)(options "")(descr ""))
+  (lib (name CUSTOM_COMPONENTS)(type Legacy)(uri /opt/dev/git_work/VIOBOARD_V1_Schematics/LIBRARIES/COMPONENT/CUSTOM_COMPONENTS.lib)(options "")(descr ""))
 )
