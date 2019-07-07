@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name FOOTPRINT)(type KiCad)(uri /opt/dev/git_work/VIOBOARD_V1_Schematics/LIBRARIES/FOOTPRINT)(options "")(descr ""))
   (lib (name CUSTOM_FOOTPRINTS)(type KiCad)(uri /opt/dev/git_work/VIOBOARD_V1_Schematics/LIBRARIES/FOOTPRINT/CUSTOM_FOOTPRINTS.pretty)(options "")(descr ""))
+  (lib (name FOOTPRINTS)(type KiCad)(uri /opt/dev/git_work/G4_TO_GROOV_ADAPTER/KiCAD/FOOTPRINTS.pretty)(options "")(descr ""))
 )
