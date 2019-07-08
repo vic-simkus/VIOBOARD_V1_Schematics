@@ -1,0 +1,33 @@
+Drill report for /opt/dev/git_work/VIOBOARD_V1_Schematics/BBB_SHIELD_V2/BBB_SHIELD_V2.kicad_pcb
+Created on Sun 25 Nov 2018 11:30:37 AM CST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'BBB_SHIELD_V2.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (114 holes)
+    T2  0.65mm  0.026"  (24 holes)
+    T3  0.75mm  0.030"  (17 holes)
+    T4  0.80mm  0.031"  (7 holes)
+    T5  1.00mm  0.039"  (112 holes)
+    T6  1.10mm  0.043"  (16 holes)
+    T7  1.30mm  0.051"  (6 holes)
+    T8  1.35mm  0.053"  (10 holes)
+    T9  1.50mm  0.059"  (7 holes)
+    T10  3.20mm  0.126"  (6 holes)
+
+    Total plated holes count 319
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
