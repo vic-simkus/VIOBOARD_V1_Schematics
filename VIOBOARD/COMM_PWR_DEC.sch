@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 21
+Sheet 4 21
 Title "Vic's IO BOARD V1.0"
 Date "2018-09-03"
 Rev "D"
@@ -32,7 +32,7 @@ F 3 "" H 4550 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 1200 6200 1200
+	4550 1200 4850 1200
 Wire Wire Line
 	4550 1500 4550 1550
 $Comp
@@ -119,7 +119,23 @@ Wire Wire Line
 	5600 1450 5600 1500
 Connection ~ 5600 1500
 Wire Wire Line
-	6200 1500 4550 1500
+	6200 1500 5600 1500
 Text HLabel 6200 1500 2    35   Output ~ 0
 VSS_COMM
+Wire Wire Line
+	4850 1200 5100 1200
+Wire Wire Line
+	5100 1200 5350 1200
+Wire Wire Line
+	5350 1200 5600 1200
+Wire Wire Line
+	5600 1200 6200 1200
+Wire Wire Line
+	4850 1500 4550 1500
+Wire Wire Line
+	5100 1500 4850 1500
+Wire Wire Line
+	5350 1500 5100 1500
+Wire Wire Line
+	5600 1500 5350 1500
 $EndSCHEMATC

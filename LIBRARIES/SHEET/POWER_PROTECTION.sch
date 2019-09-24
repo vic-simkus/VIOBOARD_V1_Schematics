@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 12
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "VPSB"
+Date "2019-09-03"
+Rev "V3.0"
+Comp "Vidas Simkus"
+Comment1 "Copyright (C) 2019 Vidas Simkus"
 Comment2 ""
 Comment3 ""
 Comment4 ""

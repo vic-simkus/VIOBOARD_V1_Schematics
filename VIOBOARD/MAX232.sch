@@ -98,7 +98,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 3600 7050 3600
 Wire Wire Line
-	7050 3600 7050 3300
+	7050 3600 7050 3450
 Wire Wire Line
 	7050 3300 6850 3300
 $Comp
@@ -164,7 +164,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 2500 5650 2350
 Wire Wire Line
-	5400 2350 7500 2350
+	5400 2350 5650 2350
 Wire Wire Line
 	7500 2350 7500 2450
 Connection ~ 5650 2350
@@ -202,4 +202,8 @@ Wire Wire Line
 	7350 4200 6450 4200
 Wire Wire Line
 	7350 4400 6450 4400
+Wire Wire Line
+	7050 3450 7050 3300
+Wire Wire Line
+	5650 2350 7500 2350
 $EndSCHEMATC

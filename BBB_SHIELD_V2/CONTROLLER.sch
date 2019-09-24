@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 12
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "VPSB"
+Date "2019-09-03"
+Rev "V3.0"
+Comp "Vidas Simkus"
+Comment1 "Copyright (C) 2019 Vidas Simkus"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -731,9 +731,12 @@ L Device:R_Small R25
 U 1 1 5D47DE36
 P 3900 3600
 F 0 "R25" V 3704 3600 50  0000 C CNN
-F 1 "0" V 3795 3600 50  0000 C CNN
+F 1 "200R" V 3795 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3900 3600 50  0001 C CNN
-F 3 "~" H 3900 3600 50  0001 C CNN
+F 3 "" H 3900 3600 50  0001 C CNN
+F 4 "541-4146-1-ND" H 0   0   50  0001 C CNN "DKPN"
+F 5 "VISHAY" H 0   0   50  0001 C CNN "MFG"
+F 6 "CRCW0805200RFKEAC" H 0   0   50  0001 C CNN "MFGPN"
 	1    3900 3600
 	0    1    1    0   
 $EndComp
@@ -780,9 +783,12 @@ L Device:R_Small R22
 U 1 1 5D4B6345
 P 6600 3500
 F 0 "R22" V 6800 3500 50  0000 C CNN
-F 1 "0" V 6700 3500 50  0000 C CNN
+F 1 "200R" V 6700 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 6600 3500 50  0001 C CNN
-F 3 "~" H 6600 3500 50  0001 C CNN
+F 3 "" H 6600 3500 50  0001 C CNN
+F 4 "541-4146-1-ND" H 0   0   50  0001 C CNN "DKPN"
+F 5 "VISHAY" H 0   0   50  0001 C CNN "MFG"
+F 6 "CRCW0805200RFKEAC" H 0   0   50  0001 C CNN "MFGPN"
 	1    6600 3500
 	0    1    1    0   
 $EndComp

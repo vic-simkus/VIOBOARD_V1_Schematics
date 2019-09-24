@@ -1,0 +1,14 @@
+Serial cable color code for the cable between the VPSB and the IO boards
+
+DB-9 Connector
+
+PIN		COLOR			FUNCTION
+2		BLUE			RXD
+3		BROWN			TXD
+5		WHITE/BROWN		GROUND
+7		ORANGE			RTS
+8		GREEN			CTS
+
+On the VPSB board the connections are crossed.  Blue wire connects to the TXD terminal, brown wire connected to the RXD terminal, and so forth.
+
+The boards are numbered bottom to top.  Bottom board is board one and top board is board two.  The bottom board should be connected to U2 (unmarked) terminals on the VPSB.  The top board should be connected to the U4 terminals on the VPSB.
